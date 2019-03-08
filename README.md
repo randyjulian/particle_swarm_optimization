@@ -5,6 +5,9 @@ Final Year Project for Bachelor of Science (Honours), Statistics
 Particle Swarm Optimization (PSO) is a metaheuristic, nature-inspired algorithm commonly used for solving optimization problems. One advantage of PSO is the fast convergence of the algorithm but is also known for its tendency for premature convergence and stagnation. This study builds on the empirical study by Cleghorn and Engelbrecht (2014) that studies the region of convergence which is measured by the precision of the algorithm. In Chapter 3, this study will explore a new measure to assess accuracy to complement the existing precision measure. Combining these two measures, a new derived region for convergence is introduced and further examination of non-convergence behaviour is conducted. There are 3 main categories for the behaviour of the algorithm: convergence, stagnation and oscillation. While the choices of parameters have a huge impact on the stagnation and oscillation cases, it can be shown that in certain cases of inaccurate convergence, longer iterations can help the algorithm to converge.
 
 ## Files
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
 The scripts should be run first to obtain the data to be used in the notebooks later (the two table scripts take about 6 hours). The two notebooks: convergence_plots_chapter5 and non_convergence_plots_chapter6 require the pickle files from convergence_matrices_creation.py in order to run.
 
 * Python Scripts
