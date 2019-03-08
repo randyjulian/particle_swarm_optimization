@@ -18,53 +18,50 @@ The scripts should be run first to obtain the data to be used in the notebooks l
     * non_convergence_plots_chapter6.ipynb
 
 ## Table of Contents
-List of Figures	vi
-List of Tables	vii
-
-1. Introduction
-2. Particle Swarm Optimization
-    2.1. Minimization problem
-    2.2. Algorithm
-        2.2.1. Pseudo Code
-        2.2.2. Initialization
-        2.2.2. Position and Velocity Update
-        2.2.3. Parameters
-        2.2.4. Restrictions
+1. **Introduction**  
+2. **Particle Swarm Optimization**  
+    2.1. Minimization problem  
+    2.2. Algorithm  
+     * 2.2.1. Pseudo Code  
+     * 2.2.2. Initialization  
+     * 2.2.3. Position and Velocity Update
+     * 2.2.4. Parameters
+     * 2.2.5. Restrictions
     2.3 Exploration Exploitation Trade-off
     2.4. Applications of PSO
-3. Experimental Setup
-    3.1. Objective Functions
-    3.2. Measure of Convergence
-        3.2.1. Fixed Iteration and Stopping Criterion Methods
-        3.2.2. Measure of Convergence, $\Delta_{avg}$
-        3.2.3. New Measure of Convergence, $\Delta_{max}$
-        3.2.4. Benefits of $\Delta_{avg}$ and $\Delta_{max}$
-4. Understanding Convergence through Fixed Iteration and Stopping Criteria Methods
-    4.1. Simulation with Varying Number of Particles
-    4.2. Simulation with Varying Dimensions
-    4.3. Conclusion
-5. Effects of PSO Parameters on its Convergence Behaviour
-    5.1. Theoretical Regions of Particle Convergence
-    5.2. Experimental Setup
-    5.3. Region of Convergence based on $\Delta_{avg}$
-        5.3.1. Classification of Convergence Behaviour
-        5.3.2. Classification Method
-        5.3.3. Pseudo Code
-        5.3.4. Limitations of Classification Method
-        5.3.5. Results
-    5.4. Region of Convergence based on $\Delta_{max}$
-        5.4.1. Results
-        5.4.2. Limitations
-    5.5. Conclusion
-6. Non-Convergence Behaviour
-    6.1. Approach on Observing Non-Convergence Behaviour
-    6.2. Inaccurate Convergence (ω= 0.4, $c_1+c_2$= 4.4)
-    6.3. Stagnation (ω= 1.0, $c_1+c_2$= 1.2)
-    6.4. Oscillation (ω=0.9,$c_1+c_2$=3.8)
-    6.5. Conclusion
-7. Conclusion
-    7.1. Results
-    7.2. Limitations and Future Work
+3. **Experimental Setup**  
+    3.1. Objective Functions  
+    3.2. Measure of Convergence  
+     * 3.2.1. Fixed Iteration and Stopping Criterion Methods
+     * 3.2.2. Measure of Convergence, $\Delta_{avg}$
+     * 3.2.3. New Measure of Convergence, $\Delta_{max}$
+     * 3.2.4. Benefits of $\Delta_{avg}$ and $\Delta_{max}$
+4. **Understanding Convergence through Fixed Iteration and Stopping Criteria Methods**  
+    4.1. Simulation with Varying Number of Particles  
+    4.2. Simulation with Varying Dimensions  
+    4.3. Conclusion  
+5. **Effects of PSO Parameters on its Convergence Behaviour**  
+    5.1. Theoretical Regions of Particle Convergence  
+    5.2. Experimental Setup  
+    5.3. Region of Convergence based on $\Delta_{avg}$  
+     * 5.3.1. Classification of Convergence Behaviour
+     * 5.3.2. Classification Method
+     * 5.3.3. Pseudo Code
+     * 5.3.4. Limitations of Classification Method
+     * 5.3.5. Results
+    5.4. Region of Convergence based on $\Delta_{max}$  
+     * 5.4.1. Results  
+     * 5.4.2. Limitations  
+    5.5. Conclusion   
+6. **Non-Convergence Behaviour**  
+    6.1. Approach on Observing Non-Convergence Behaviour  
+    6.2. Inaccurate Convergence (ω= 0.4, $c_1+c_2$= 4.4)  
+    6.3. Stagnation (ω= 1.0, $c_1+c_2$= 1.2)  
+    6.4. Oscillation (ω=0.9,$c_1+c_2$=3.8)  
+    6.5. Conclusion  
+7. **Conclusion**  
+    7.1. Results   
+    7.2. Limitations and Future Work  
 
 
 ## Author
